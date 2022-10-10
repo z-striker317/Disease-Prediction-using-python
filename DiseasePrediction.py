@@ -181,11 +181,4 @@ S5En.grid(row=11, column=1)
 dst = Button(root, text="Predict", command=DecisionTree,bg="green",fg="yellow")
 dst.grid(row=8, column=3)
 
-S5En = OptionMenu(root, Symptom5,*OPTIONS)
-S5En.grid(row=11, column=1)
-
-dst = Button(root, text="Predict", command=DecisionTree,bg="green",fg="yellow")
-dst.grid(row=8, column=3)
-
-root.mainloop()
 
