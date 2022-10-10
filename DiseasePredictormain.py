@@ -181,3 +181,6 @@ S5En.grid(row=11, column=1)
 
 dst = Button(root, text="Predict", command=DecisionTree,bg="green",fg="yellow")
 dst.grid(row=8, column=3)
+
+t1 = Text(root, height=1, width=40,bg="orange",fg="black")
+t1.grid(row=15, column=1, padx=10)
